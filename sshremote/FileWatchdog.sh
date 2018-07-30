@@ -18,6 +18,7 @@ if [ ${capacity%?} -ge 80 ];then
 echo "your machine 18's available capacity is more than  80%,System will clear the logs file,Please attention check！" >> capacity18.txt
 
 # clear the logs file
+echo "begining automatic clear files to free capacity..."
 echo "=============================clear logs file start=============================" >> capacity18.txt
 echo "clear mecury_b's file..." >> capacity18.txt
 rm -rf /home/mecury_b/apache-tomcat-8.0.47/logs/*.txt
@@ -43,6 +44,10 @@ rm -rf /home/mecury_r/apache-tomcat-8.0.47/logs/catalina.out
 rm -rf /home/mecury_r/apache-tomcat-8.0.47/logs/saasmercury
 echo "complete mecury_r' file" >> capacity18.txt
 echo "==============================clear logs file end==============================" >> capacity18.txt
+
+# re-statistic the capacity of the /dev/vda1
+capacity=$(df -h|awk '/vda1/ {print $5}')
+echo "after clear files,your machine 18's capacity is $capacity !" >>capacity18.txt
 
 else
 echo "your machine 18's available capacity is enough!" >> capacity18.txt
