@@ -1,0 +1,18 @@
+[
+    {
+        "SN" : "0123456789ABCDEF0123456789ABCDEF",
+        "TYPE" : "CAMERA"
+    },
+    {
+        "SN" : "FEDCBA9876543210FEDCBA9876543210",
+        "TYPE" : "RFBOX"
+    },
+    {
+        "SN" : "11111111111111112222222222222222",
+        "TYPE" : "SCREEN"
+    },
+    {
+        "SN" : "4444444444444444FFFFFFFFFFFFFFFF",
+        "TYPE" : "PAD"
+    }
+]

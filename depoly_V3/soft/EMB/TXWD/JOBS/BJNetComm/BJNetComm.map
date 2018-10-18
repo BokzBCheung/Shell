@@ -1,0 +1,9 @@
+{
+	global:
+		so_bjnet_*;
+		BJNetComm_*;
+		BJAutoNet_*;
+		Java_com_BlowJobs_*;
+	local:
+		*;
+};

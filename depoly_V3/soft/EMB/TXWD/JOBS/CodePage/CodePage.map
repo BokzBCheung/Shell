@@ -1,0 +1,9 @@
+{
+	global:
+		so_cpage_*;
+		local_cpage;
+		str_ccp2uni;
+		str_uni2ccp;
+	local:
+		*;
+};

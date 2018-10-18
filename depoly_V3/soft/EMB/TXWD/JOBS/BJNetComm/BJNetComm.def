@@ -1,0 +1,24 @@
+EXPORTS
+    BJNetComm_Init
+    BJNetComm_Kill
+    BJNetComm_Reset
+    BJNetComm_SizeMax
+    BJNetComm_UpdateToken
+    BJNetComm_EncBytes
+    BJNetComm_EncString
+    BJNetComm_DecBytesEx
+    BJNetComm_DecBytes
+    BJNetComm_DecString
+    BJNetComm_PtrFree
+    BJAutoNet_GenSN32
+    Java_com_BlowJobs_BJNetComm_init
+    Java_com_BlowJobs_BJNetComm_kill
+    Java_com_BlowJobs_BJNetComm_reset
+    Java_com_BlowJobs_BJNetComm_sizeMax
+    Java_com_BlowJobs_BJNetComm_updateToken
+    Java_com_BlowJobs_BJNetComm_encBytes
+    Java_com_BlowJobs_BJNetComm_encString
+    Java_com_BlowJobs_BJNetComm_decBytesEx
+    Java_com_BlowJobs_BJNetComm_decBytes
+    Java_com_BlowJobs_BJNetComm_decString
+    Java_com_BlowJobs_BJNetComm_genSN32

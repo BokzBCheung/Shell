@@ -1,0 +1,8 @@
+{
+	global:
+		so_dhcam_*;
+		dhcamera_*;
+		dhnotify_*;
+	local:
+		*;
+};

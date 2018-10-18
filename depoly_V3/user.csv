@@ -1,0 +1,5 @@
+192.168.10.201:server201 platform:SaaS-Platform.war:8180:8105:8109 permission:SaaSPermission.war:8280:8205:8209 janus:SaaSJanus.war:8380:8305:8309
+192.168.10.201:server201 zookeeper:zookeeper kafka:kafka
+192.168.10.201:server201 asupark:ASUParking.war asuerp:ASUErp.war asubilling:ASUbilling.war
+192.168.10.202:server202 bpm:BPParkManager.war bpc:BPParkCompute.war bpb:BPErp.war
+192.168.10.202:server202 zookeeper:zookeeper kafka:kafka

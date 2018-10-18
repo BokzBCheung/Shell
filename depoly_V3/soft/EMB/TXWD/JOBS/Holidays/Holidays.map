@@ -1,0 +1,8 @@
+{
+	global:
+		so_hdays_*;
+		Holidays_*;
+		Java_com_BlowJobs_*;
+	local:
+		*;
+};
